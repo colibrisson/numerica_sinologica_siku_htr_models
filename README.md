@@ -31,4 +31,4 @@ This work received funding from the Centre Chine, Corée, Japon (UMR 8173), the 
 
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. See [LICENSE](./LICENCE) for details.
 
-## Quoting
+## Citation
