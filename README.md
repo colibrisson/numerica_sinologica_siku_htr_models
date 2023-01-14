@@ -25,7 +25,7 @@ This work is part of an ongoing project by the Numerica Sinologica consortium to
 
 We wish to thank kraken main developer, Benjamin Kiessling, as well as eScriptorium project directors, Daniel Stökl Ben Ezra and Peter Stokes, for their support.
 
-This work received funding from the Centre Chine, Corée, Japon (UMR 8173), the Centre de recherche sur les civilisations de l'Asie orientale (UMR 8155), the Institut d'Asie orientale (UMR 5062), the Institut Universitaire de France, and from project Vietnamica (ERC XXX). Colin Brisson is a Ph.D. student at the Ecole pratique des hautes études-PSL.
+This work received funding from the Centre Chine, Corée, Japon (UMR 8173), the Centre de recherche sur les civilisations de l'Asie orientale (UMR 8155), the Institut d'Asie orientale (UMR 5062), the Institut Universitaire de France, and from project Vietnamica (ERC 833933).
 
 ## License
 
