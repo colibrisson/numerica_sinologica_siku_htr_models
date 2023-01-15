@@ -1,0 +1,16 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Brisson
+    given-names: Colin
+    orcid: https://orcid.org/0000-0001-5148-1762
+  - family-names: Constant
+    given-names: Frédéric
+    orcid: https://orcid.org/0000-0002-3225-107X
+  - family-names: Bui
+    given-names: Marc
+    orcid: https://orcid.org/0000-0003-0681-0947
+title: numerica_sinologica_siku_htr_models: First release
+version: v0.0.1
+date-released: 2023-01-15
+            
