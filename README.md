@@ -32,3 +32,14 @@ This work received funding from the Centre Chine, Corée, Japon (UMR 8173), the 
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. See [LICENSE](./LICENCE) for details.
 
 ## Citation
+
+```
+@software{Brisson_numerica_sinologica_siku_htr_models_First_release_2023,
+author = {Brisson, Colin and Constant, Frédéric and Bui, Marc},
+month = {1},
+title = {{numerica_sinologica_siku_htr_models: First release}},
+url = {https://github.com/colibrisson/numerica_sinologica_siku_htr_models/tree/v0.0.1},
+version = {v0.0.1},
+year = {2023}
+}
+```
