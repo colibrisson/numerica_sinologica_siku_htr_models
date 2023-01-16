@@ -39,7 +39,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 Int
 ## Citation
 
 ```
-@software{Brisson_numerica_sinologica_siku_htr_models_First_release_2023,
 @software{colin_brisson_2023_7539324,
   author       = {Colin Brisson and
                   Frédéric Constant and
