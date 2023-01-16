@@ -1,5 +1,25 @@
 import pathlib
 
+def check_line_direction(baseline_seg: dict) -> dict:
+    """Check if the lines are oriented top to bottom, if not inverse their direction.
+    
+    Parameters:
+        baseline_seg (dict): A dictionary containing segmentation output
+    
+    Return: 
+        baseline_seg (dict): A dictionary containing segmentation output with corrected line direction
+    """
+    
+    lines = []
+    for line in baseline_seg["lines"]:
+        if line["baseline"][0][1] > line["baseline"][-1][1]:
+            line["baseline"].reverse()
+        lines.append(line)
+    
+    baseline_seg["lines"] = lines
+
+    return baseline_seg
+
 if __name__ == '__main__':
 
     # Check if kraken is installed
@@ -34,6 +54,9 @@ if __name__ == '__main__':
     # Load segmentation model and segment the image
     seg_model = vgsl.TorchVGSLModel.load_model(seg_model_path)
     baseline_seg = blla.segment(img, text_direction="vertical-rl", model=seg_model)
+    
+    # Check if the lines are oriented top to bottom, if not inverse their direction
+    baseline_seg = check_line_direction(baseline_seg)
 
     # Load recognition model and iterate over the lines
     rec_model = models.load_any(rec_model_path)
