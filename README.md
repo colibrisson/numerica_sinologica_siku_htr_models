@@ -1,5 +1,8 @@
 # Numerica Sinologica Siku HTR models
 
+
+[![DOI](https://zenodo.org/badge/588871323.svg)](https://zenodo.org/badge/latestdoi/588871323)
+
 This repository contains automatic transcription models trained using the [kraken OCR engine](https://github.com/mittagessen/kraken) on images from the Wenyuange 文淵閣 Siku quanshu 四庫全書.
 
 This work is part of an ongoing project by the Numerica Sinologica consortium to build open-source digital tools for pre-modern Chinese studies.
@@ -37,11 +40,17 @@ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 Int
 
 ```
 @software{Brisson_numerica_sinologica_siku_htr_models_First_release_2023,
-author = {Brisson, Colin and Constant, Frédéric and Bui, Marc},
-month = {1},
-title = {{numerica_sinologica_siku_htr_models: First release}},
-url = {https://github.com/colibrisson/numerica_sinologica_siku_htr_models/tree/v0.0.1},
-version = {v0.0.1},
-year = {2023}
+@software{colin_brisson_2023_7539324,
+  author       = {Colin Brisson and
+                  Frédéric Constant and
+                  Bui Marc},
+  title        = {{colibrisson/numerica\_sinologica\_siku\_htr\_models: 
+                   First release}},
+  month        = jan,
+  year         = 2023,
+  publisher    = {Zenodo},
+  version      = {v0.0.1},
+  doi          = {10.5281/zenodo.7539324},
+  url          = {https://doi.org/10.5281/zenodo.7539324}
 }
 ```
