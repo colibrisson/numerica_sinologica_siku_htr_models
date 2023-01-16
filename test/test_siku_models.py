@@ -1,5 +1,6 @@
 import pathlib
 
+
 def check_line_direction(baseline_seg: dict) -> dict:
     """Check if the lines are oriented top to bottom, if not inverse their direction.
     
