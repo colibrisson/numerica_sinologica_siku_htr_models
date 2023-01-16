@@ -14,7 +14,7 @@ This work is part of an ongoing project by the Numerica Sinologica consortium to
 - `numerica_sinologica_base_seg_1p` is a base model trained using color images with a 9:16 aspect ratio.
 
 
-## Recognition models,
+## Recognition models
 
 - `numerica_sinologica_siku_kanripo_rec` is a transcription model trained with images from the Wenyuange siku quanshu and diplomatic transcriptions from the Kansekei repository. This model achieved 99.11% accuracy on an untouched test dataset.
 
@@ -28,7 +28,7 @@ This work is part of an ongoing project by the Numerica Sinologica consortium to
 
 We wish to thank kraken main developer, Benjamin Kiessling, and eScriptorium project directors, Daniel Stökl Ben Ezra and Peter Stokes, for their support.
 
-This work received funding from the Centre Chine, Corée, Japon (UMR 8173), the Centre de recherche sur les civilisations de l'Asie orientale (UMR 8155), the Institut d'Asie orientale (UMR 5062), the Institut Universitaire de France, and from the Vietnamica project (ERC 833933).
+This work received funding from the Centre Chine, Corée, Japon (UMR 8173), the Centre de recherche sur les civilisations de l'Asie orientale (UMR 8155), the Institut d'Asie orientale (UMR 5062), the Institut Universitaire de France, and the Vietnamica project (ERC 833933).
 
 We gratefully acknowledge support from the CNRS/IN2P3 Computing Center (Lyon - France) and manuscriptologIA (DIM - STN) for providing computing and data-processing resources needed for this work.
 
